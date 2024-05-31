@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Open_Sans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { GlobalStyle } from "@/presentation/external/styled/global";
+import { StyledProvider } from "@/presentation/external/styled/provider";
+
+const openSans = Open_Sans({
+  weight: ["400", "700", "800"],
+  style: ["normal"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,9 +20,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <StyledProvider>
+        <body className={openSans.className}>{children}</body>
+        <GlobalStyle/>
+      </StyledProvider>
     </html>
   );
 }

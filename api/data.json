@@ -1,0 +1,165 @@
+{
+    "data": {
+      "posts": {
+        "data": [
+          {
+            "id": "1",
+            "attributes": {
+              "slug": "o-que-e-o-use-state",
+              "title": "o que é o useState?",
+              "excerpt": "o que é o useState no react",
+              "content": "<h1>Title</h1><p>content</p><p><img class=\"image_resized\" style=\"aspect-ratio:1200/600;width:69.28%;\" src=\"http://localhost:1337/uploads/use_State_hook_twitter_bb2ecc563e.png\" alt=\"useState-hook-twitter.png\" width=\"1200\" height=\"600\"></p><p><code>const [state, setState] = useState('')</code></p>",
+              "allowComents": true,
+              "cover": {
+                "data": {
+                  "id": "1",
+                  "attributes": {
+                    "url": "/uploads/use_State_hook_twitter_bb2ecc563e.png",
+                    "alternativeText": "texto alternativo"
+                  }
+                }
+              },
+              "categories": {
+                "data": [
+                  {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "React",
+                      "slug": "react"
+                    }
+                  }
+                ]
+              },
+              "tags": {
+                "data": [
+                  {
+                    "id": "1",
+                    "attributes": {
+                      "displayName": "useState",
+                      "slug": "use-state"
+                    }
+                  }
+                ]
+              },
+              "author": {
+                "data": {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "Ezequiel B",
+                    "slug": "ezequiel-b"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "2",
+            "attributes": {
+              "slug": "title-teste",
+              "title": "title teste",
+              "excerpt": "testeeeeeeee",
+              "content": "<p>content japodçasdjasod</p>",
+              "allowComents": true,
+              "cover": {
+                "data": {
+                  "id": "1",
+                  "attributes": {
+                    "url": "/uploads/use_State_hook_twitter_bb2ecc563e.png",
+                    "alternativeText": "texto alternativo"
+                  }
+                }
+              },
+              "categories": {
+                "data": [
+                  {
+                    "id": "5",
+                    "attributes": {
+                      "displayName": "NextJs",
+                      "slug": "next-js"
+                    }
+                  }
+                ]
+              },
+              "tags": {
+                "data": [
+                  {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "crud",
+                      "slug": "crud"
+                    }
+                  }
+                ]
+              },
+              "author": {
+                "data": {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "Fulado de Tal",
+                    "slug": "fulado-de-tal"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "3",
+            "attributes": {
+              "slug": "teste-2",
+              "title": "teste 2",
+              "excerpt": "aaaaaaaaaaaaaa",
+              "content": "<p>aaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbb</p>",
+              "allowComents": true,
+              "cover": {
+                "data": {
+                  "id": "1",
+                  "attributes": {
+                    "url": "/uploads/use_State_hook_twitter_bb2ecc563e.png",
+                    "alternativeText": "texto alternativo"
+                  }
+                }
+              },
+              "categories": {
+                "data": [
+                  {
+                    "id": "3",
+                    "attributes": {
+                      "displayName": "React",
+                      "slug": "react"
+                    }
+                  },
+                  {
+                    "id": "2",
+                    "attributes": {
+                      "displayName": "Java",
+                      "slug": "java"
+                    }
+                  }
+                ]
+              },
+              "tags": {
+                "data": [
+                  {
+                    "id": "4",
+                    "attributes": {
+                      "displayName": "deploy",
+                      "slug": "deploy"
+                    }
+                  }
+                ]
+              },
+              "author": {
+                "data": {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "Jonh Doe",
+                    "slug": "jonh-doe"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
