@@ -61,7 +61,7 @@ module.exports = plop => {
         },
         {
           type: 'add',
-          path: `../src/stories/${componentPathname}/{{pascalCase name}}/{{pascalCase name}}.stories.tsx`,
+          path: `../src/presentation/${componentPathname}/{{pascalCase name}}/{{pascalCase name}}.stories.tsx`,
           templateFile: 'templates/components/component.stories.ts.hbs'
         }
       ]
